@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 16px;
+    text-align: center;
+    border: 2px solid #ccc;
+    margin-bottom: 16px;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 16px;
+    border: 2px solid #ccc;
+    padding: 16px;
+    background-color: #ffffff;
+  }
+  
+  #fishList {
+    flex: 1;
+    margin-right: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 16px;
+  }
+  
+  #tipList {
+    flex: 0 0 250px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #locationList {
+    width: 100%;
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 16px;
+    border-top: 2px solid #ccc;
+    padding-top: 16px;
+  }
+  
